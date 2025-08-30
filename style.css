@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat:wght@400..700&family=Chilanka&family=Itim&family=Knewave&family=Luckiest+Guy&family=Nosifer&family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+* {
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html, body {
+  overflow-x: hidden;
+}
+
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Head */
+.head{
+    background-color: #21042A;
+    height: 140px;
+   z-index: 3;
+   position: fixed;
+   width: 100vw;
+
+}
+.head img{
+   float: left;
+   width:75px;
+   height: 75px;
+  text-align: center;
+  margin-top: 28px;
+  margin-left: 20px;
+
+  
+}
+.head img:hover{
+ 
+      filter: brightness(0.5);
+    text-shadow: 2px 2px 2px white;
+    transition: ease-in;
+    cursor: pointer;
+}
+.head h1{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 70px;
+    margin-left: 25px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px rgb(113, 113, 113);
+}
+/* college */
+.collegeimg {
+    position: relative;
+    z-index: 1;
+  
+}
+
+.collegeimg img {
+    width: 100vw;
+    height: 700px;
+    float: both;
+    display: inline-block;
+
+   
+}
+
+.knowus {
+    height: 100px;
+    background-color: #21042A;
+    width: 60%;
+    border-radius: 20px;
+    margin-left: 325px;
+    z-index: 1;
+    margin-bottom: 100px;
+    display: inline-block;
+    position: absolute;
+   
+    left: 28%;
+    
+    transform: translate(-50%, -50%);
+ 
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.knowus h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: Itim;
+    color: white;
+   
+
+}
+/* design */
+.cir{
+    height:1000px;
+    width:1000px;
+    background-color: #BB70F0;
+    border-radius: 50%;
+   float: right;
+   position: relative;
+   z-index: 0;
+    position: absolute;
+     transform: translate(-50%, -50%);
+   width: -100vw;
+     right: -1000px;
+  
+}
+.cir2{
+    height:1000px;
+    width:1000px;
+    background-color: #BB70F0;
+    border-radius: 50%;
+   float: right;
+   position: relative;
+   z-index: 0;
+    position: absolute;
+     transform: translate(-50%, -50%);
+   width: -100vw;
+     right: 500px;
+  
+}
+
+/* quickFacts */
+.qfact{
+ 
+    width: 60%;
+   margin-left: 325px;
+   margin-top: 200px;
+  
+   position: relative;
+    
+}
+.qfact:hover{
+   
+ 
+
+}
+.qfact .head{
+       height: 200px;
+    background-color: #BB70F0;
+  border-radius:25px;
+  top:500px;
+ position: sticky;
+   
+   z-index: -2;
+   
+   border:2px solid #21042A;
+}
+.qfact .head1{
+       height: 200px;
+    background-color: #BB70F0;
+  border-radius:25px;
+  top:500px;
+ position: sticky;
+   
+   z-index: -2;
+   
+   border:2px solid #21042A;
+}
+.qfact .head h1{
+
+    color:#21042A;
+    font-size: 90px;
+    z-index: 1;
+    font-family: itim;
+    text-shadow: 2px 2px 2px gray;
+}
+.qfact .body{
+    height: 1800px;
+    background-color: #21042A;
+    border-radius: 25px;
+    padding-top: 30px;
+    top:500px;
+     z-index: 1;
+   position: sticky;
+   margin-top: -30px;
+ 
+ 
+
+
+
+}
+.qfact .body1{
+    height: 800px;
+    background-color: #21042A;
+    border-radius: 25px;
+    padding-top: 30px;
+    top:500px;
+     z-index: -1;
+   position: sticky;
+   margin-top: -30px;
+   margin-bottom: 75px;
+ 
+ 
+
+
+
+}
+.qfact .body h2{
+    font-size: 70px;
+    color: white;
+    margin-left: 40px;
+    font-family: itim;
+    text-shadow: 2px 2px 2px grey;
+}
+.qfact .body p{
+      font-size: 38px;
+   margin: 50px 160px;
+   color: white;
+}
+.qfact .body1 #dhp{
+      font-size: 35px;
+   margin: 130px 100px 250px 150px;
+   color: white;
+}
+.qfact #dh{
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    font-family: itim;
+    text-shadow: 2px 2px 2px grey;
+    z-index: 4;
+    margin-bottom: -130px;
+    width: 100%;
+
+}
+.clear {
+    clear: both;
+}
