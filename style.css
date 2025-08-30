@@ -23,6 +23,7 @@ html, body {
    z-index: 3;
    position: fixed;
    width: 100vw;
+     box-shadow: 0.5px 0.5px 5px black;
 
 }
 .head img{
@@ -237,4 +238,5 @@ html, body {
 }
 .clear {
     clear: both;
+
 }
