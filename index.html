@@ -4,71 +4,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Caveat:wght@400..700&family=Chilanka&family=Graduate&family=Itim&family=Knewave&family=Luckiest+Guy&family=Nosifer&family=Playwrite+AU+QLD:wght@100..400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <!-- head -->
     <div class="head">
         <img src="Image/Back.png" alt="backtomenu">
-        <h1>About Us</h1>
-    </div>
-    <!-- image -->
-    <div class="collegeimg">
-        <img src="Image/college.png" alt="college image">
-    </div>
-    <div class="knowus">
-        <h1>Get To Know Us</h1>
+        <h1>Gallery</h1>
     </div>
     <!-- design -->
     <div class="cir"></div>
-
-    <!-- quickfacts -->
-    <div class="qfact">
-        <div class="head">
-            <h1>QuickFacts</h1>
+    <!-- Department -->
+    <div class="deptxt">
+        <h1>Department Gallery</h1>
+    </div>
+    <div class="images">
+        <div class="img-container imgl" data-title="Department"
+            data-desc="A glimpse of our department, the heart of our college.">
+            <img src="Image/G1img.png" alt="img1">
         </div>
-        <div class="body">
-            <h2>Who We Are?</h2>
-            <p>We are the Department of Information Technology at GEC Idukki, a hub of innovation, research, and
-                academic excellence.</p>
-            <h2>Our Vision</h2>
-            <p>To be a centre of excellence in the field of InformationTechnology which nurtures young minds through
-                technological<br>adaptation, research, innovation and entrepreneurial skills<br>complying to the needs
-                of
-                society and industry.</p>
-            <h2>Our Mission</h2>
-            <p>01. Imparting career oriented professional education to students through effective delivery of the
-                curriculum.</p>
+        <div class="img-container imgr" data-title="Iftar Event"
+            data-desc="A memorable moment from our Iftar gathering.">
+            <img src="Image/G2Img.png" alt="img2">
+        </div>
+        <div class="img-container imgl" data-title="Farewell"
+            data-desc="Cherishing the farewell celebration for our seniors.">
+            <img src="Image/G4img.png" alt="img3">
+        </div>
+        <div class="img-container imgr" data-title="Lab" data-desc="Inside our lab, where learning meets innovation.">
+            <img src="Image/G3 img.png" alt="img4">
+        </div>
+    </div>
 
-            <p>02. Establishing effective adaptation of cutting edge technologies through industry collaborations and
-                mentoring.</p>
-
-            <p>03. Empowering individuals to be socially responsible by inculcating  critical thinking, innovation and
-                ethical values.</p>
+    <!-- Popup modal -->
+    <div class="popup" id="popup">
+        <span class="close">&times;</span>
+        <div class="popup-content">
+            <img id="popupImg" src="" alt="popup">
+            <div class="popup-text">
+                <h2 id="popupTitle"></h2>
+                <p id="popupDesc"></p>
+            </div>
         </div>
     </div>
     <!-- design -->
     <div class="cir2"></div>
 
-    <!-- quickfacts -->
-    <div class="qfact">
-        <h1 id="dh">Department History</h1>
-        <div class="head1"></div>
-        <div class="body1">
-            
-            <p id="dhp">Department of Information Technology at Government Engineering College, ldukki was established in the
-                academic year 2000. The faculties of our department are well qualified and have rich knowledge in their
-                subjects. Highly committed faculty members are keen on encouraging students to involve in various
-                co-curricular and extra-curricular activities along with their academics. Also the department has a
-                highly advanced infrastructure including high speed internet facilities, class rooms equipped with LCD
-                projectors and digital podiums</p>
-
+    <div class="etxt">
+        <h1>Event Photo Gallery</h1>
+    </div>
+    <div class="images">
+        <div class="img-container imgl" data-title="Athletics Champions"
+            data-desc="Celebrating our victory as athletic champions of 2025.">
+            <img src="Image/Athletic Champ.png" alt="img1">
+        </div>
+        <div class="img-container imgr" data-title="Arts Champions – Kavitam"
+            data-desc="Proud moments from Kavitam 2024, where we emerged as arts champions.">
+            <img src="Image/Kavettam Champ.png" alt="img2">
+        </div>
+        <div class="img-container imgl" data-title="Kadhal – Valentine’s Day Event"
+            data-desc="A glimpse from Kadhal, our college Valentine’s Day celebration.">
+            <img src="Image/Kathal.png" alt="img3">
+        </div>
+        <div class="img-container imgr" data-title="Overall Sports Champions"
+            data-desc="Capturing the spirit of triumph as overall sports champions of 2025.">
+            <img src="Image/Sports.png" alt="img4">
         </div>
     </div>
+
+    <!-- Popup modal -->
+    <div class="popup" id="popup">
+        <span class="close">&times;</span>
+        <div class="popup-content">
+            <img id="popupImg" src="" alt="popup">
+            <div class="popup-text">
+                <h2 id="popupTitle"></h2>
+                <p id="popupDesc"></p>
+            </div>
+        </div>
+    </div>
+    <!-- design -->
+    <div class="cir"></div>
+    <!-- Lab Photo Gallery -->
+    <div class="deptxt">
+        <h1>Lab Photo Gallery</h1>
+    </div>
+    <div class="images">
+        <div class="img-container imgl" data-title="Computer Lab"
+            data-desc="Our computer lab – the hub of digital learning and coding.">
+            <img src="Image/ComputerLab.png" alt="Computer Lab">
+        </div>
+        <div class="img-container imgr" data-title="Software Lab"
+            data-desc="A glimpse of the software lab, where ideas turn into applications.">
+            <img src="Image/SoftwareLab.png" alt="Software Lab">
+        </div>
+        <div class="img-container imgl" data-title="Hardware Lab" data-desc="Hands-on innovation in our hardware lab.">
+            <img src="Image/HardwareLab.png" alt="Hardware Lab">
+        </div>
+        <div class="img-container imgr" data-title="Robotics Lab"
+            data-desc="Exploring the future of technology in the robotics lab.">
+            <img src="Image/Robotics Lab.png" alt="Robotics Lab">
+        </div>
+    </div>
+
+
+    <!-- Popup modal -->
+    <div class="popup" id="popup">
+        <span class="close">&times;</span>
+        <div class="popup-content">
+            <img id="popupImg" src="" alt="popup">
+            <div class="popup-text">
+                <h2 id="popupTitle"></h2>
+                <p id="popupDesc"></p>
+            </div>
+        </div>
+    </div>
+    <div class="btm"></div>
     <div class="clear"></div>
+    <script>const containers = document.querySelectorAll('.img-container');
+        const popup = document.getElementById('popup');
+        const popupImg = document.getElementById('popupImg');
+        const popupTitle = document.getElementById('popupTitle');
+        const popupDesc = document.getElementById('popupDesc');
+        const closeBtn = document.querySelector('.popup .close');
+
+        let lastTap = 0;
+
+        containers.forEach(container => {
+            container.addEventListener('click', () => {
+                const now = Date.now();
+                if (now - lastTap < 300) { // double tap/click
+                    const img = container.querySelector('img');
+                    popupImg.src = img.src;
+                    popupTitle.textContent = container.getAttribute('data-title');
+                    popupDesc.textContent = container.getAttribute('data-desc');
+                    popup.style.display = 'flex';
+                }
+                lastTap = now;
+            });
+        });
+
+        closeBtn.addEventListener('click', () => {
+            popup.style.display = 'none';
+        });
+
+        popup.addEventListener('click', (e) => {
+            if (e.target === popup) popup.style.display = 'none';
+        });
+
+    </script>
 </body>
 
 </html>
